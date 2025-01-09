@@ -83,6 +83,7 @@ def print_metrics(name, df):
     days, weeks, months, years = calculate_time(start_time, end_time)
     print(f"Yearly net flow: {(total_in + total_out)/years}")
     print(f"Monthly net flow: {(total_in + total_out)/months}")
+    print(f"Weekly net flow: {(total_in + total_out)/weeks}")
 
 
 def calculate_time(start_date, end_date):
