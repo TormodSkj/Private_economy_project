@@ -38,3 +38,12 @@ rent_df,working_df = analyse(working_df, 'RENT', ['Leie', 'leie', 'Til: 1210'])
 
 savings_df,working_df = analyse(working_df, 'SAVINGS', includes_dict={"Beskrivelse": ["EIKA"]})
 
+clothes_df,working_df = analyse(working_df, 'CLOTHES', ['Zalando', "CUBUS", "ZARA", "CARLINGS", "WEEKDAY", "DRESSMANN", "SKORINGEN", "ECCO", "MATCH", "JACK&JONES"])
+
+akademika_df,working_df = analyse(working_df, 'AKADEMIKA', ['AKADEMIKA'])
+
+polet_df,working_df = analyse(working_df, 'POLET', ['POLET'])
+
+transport_df, working_df = analyse(working_df, 'TRANSPORT', ['SAS', 'NORWEGIAN', "ATB", "RUTER", "FLYBUSS", "VY", "SJ NORD", "TAXI"])
+
+oppkjøring_df, working_df = analyse(working_df, 'OPPKJØRING', ["TABS", "STATENS VEGVESEN"])
