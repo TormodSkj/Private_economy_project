@@ -27,9 +27,9 @@ vipps_df, working_df = analyse(all_transactions_df, 'VIPPS', includes_dict={"Und
 
 groceries_df, working_df = analyse(working_df, 'GROCERIES', ["EXTRA", "REMA", "KIWI", "SPAR", "MENY", "BUNNPRIS"])
 
-fastfood_df, working_df = analyse(working_df, 'FAST FOOD', [" MCD ", " BK ", " FLY CHICKEN ", " SESAM ", " EGON ", " Wolt ", "Foodora "])
+fastfood_df, working_df = analyse(working_df, 'FAST FOOD', [" MCD ", " BK ", " FLY CHICKEN ", " SESAM ", " EGON ", " Wolt ", "Foodora ", "DOMINOS", "PIZZABAKER"])
 
-hobby_df, working_df = analyse(working_df, 'HOBBY', ["STEAM", "LEGO", "KINO", "Patreon"])
+hobby_df, working_df = analyse(working_df, 'HOBBY', ["STEAM", "LEGO", "KINO", "Patreon", "FOTO", "PHOTO"])
 
 fitness_df,working_df = analyse(working_df, 'FITNESS', includes_dict={"Beskrivelse": ['Sit Studentsams ', "Avtalegiro til Sit", "proteinfabrikken", "PROTEINFABRIK"]})
 
@@ -43,6 +43,6 @@ akademika_df,working_df = analyse(working_df, 'AKADEMIKA', ['AKADEMIKA'])
 
 polet_df,working_df = analyse(working_df, 'POLET', ['POLET'])
 
-transport_df, working_df = analyse(working_df, 'TRANSPORT', ['SAS', 'NORWEGIAN', "ATB", "RUTER", "FLYBUSS", "VY", "SJ NORD", "TAXI"])
+transport_df, working_df = analyse(working_df, 'TRANSPORT', ['SAS', 'NORWEGIAN', "ATB", "RUTER", "FLYBUSS", "VY", "SJ NORD", "TAXI", "FLYTOG"])
 
 oppkjøring_df, working_df = analyse(working_df, 'OPPKJØRING', ["TABS", "STATENS VEGVESEN"])
