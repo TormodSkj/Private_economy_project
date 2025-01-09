@@ -34,7 +34,7 @@ hobby_df, working_df = analyse(working_df, 'HOBBY', ["STEAM", "LEGO", "KINO", "P
 
 fitness_df,working_df = analyse(working_df, 'FITNESS', includes_dict={"Beskrivelse": ['Sit Studentsams ', "Avtalegiro til Sit", "proteinfabrikken", "PROTEINFABRIK"]})
 
-rent_df,working_df = analyse(working_df, 'RENT', ['Leie', 'leie'])
+rent_df,working_df = analyse(working_df, 'RENT', ['Leie', 'leie', 'Til: 1210'])
 
 savings_df,working_df = analyse(working_df, 'SAVINGS', includes_dict={"Beskrivelse": ["EIKA"]})
 

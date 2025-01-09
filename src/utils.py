@@ -49,8 +49,6 @@ def analyse(working_df, group_name: str, message_includes_list = [], message_exc
     else:
         excludes = excludes_dict
 
-
-    # List of common Norwegian stores
     expense_group = ExpenseGroup(includes=includes, excludes=excludes)
     group_df, working_df = expense_group.filter_dataframe(working_df)
 
