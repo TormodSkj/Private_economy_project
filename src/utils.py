@@ -86,10 +86,6 @@ def print_metrics(name, df):
 
 def calculate_time(start_date, end_date):
 
-    # Define the two dates
-    start_date = datetime(2020, 8, 1)
-    end_date = datetime(2025, 1, 9)
-
     # Calculate the difference in days
     difference = end_date - start_date
 
